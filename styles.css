@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  background-color: #fffbed;
+}
+
+header {
+  background-color: #e3d3ba;
+  padding: 2%;
+  padding-bottom: 1%;
+  text-align: left;
+}
+footer {
+  background-color: #e3d3ba;
+  padding: 0.1%;
+  padding-top: 3%;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia Pro Condensed;
+  font-weight: lighter;
+  font-size: 500%;
+  color: #344637;
+}
+
+h2 {
+  font-family: Arial;
+  font-size: 150%;
+  color: #344637;
+  text-align: left;
+}
+.memyh1 {
+  font-family: Georgia Pro Condensed;
+  font-weight: lighter;
+  font-size: 500%;
+  color: #344637;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+
+.memyh2 {
+  font-family: Arial;
+  font-size: 150%;
+  color: #344637;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2%;
+}
+.headerh2{
+  font-family: Arial;
+  font-size: 150%;
+  color: #344637;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Georgia Pro Condensed;
+  font-weight: lighter;
+  font-size: 300%;
+  color: #344637;
+  text-align: center;
+}
+
+h4 {
+  font-family: Arial;
+  font-size: 150%;
+  color: #344637;
+  text-align: center;
+}
+
+p {
+  font-family: Work Sans;
+  font-size: 150%;
+  text-align: center;
+  color: #2a2a2a;
+  margin: 5%;
+  margin-top: 0;
+}
+
+ol {
+  font-family: Work Sans;
+  font-size: 150%;
+  text-align: left;
+  color: #2a2a2a;
+  margin: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+ul{
+  color: #2a2a2a;
+  margin-top: 1%;
+}
+.ordereditems {
+  margin-bottom: 1%;
+}
+
+img {
+  height: 550px;
+}
+
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mpheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.mpbutttons {
+  display: flex;
+}
+
+.button {
+  background-color: #344637;
+  color: #e7e9ec;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 50px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #e7e9ec;
+  color: #344637;
+  transition: 0.3s;
+}
+
+.card-img {
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containermemy img {
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.containerrasy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.containermemy {
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+}
